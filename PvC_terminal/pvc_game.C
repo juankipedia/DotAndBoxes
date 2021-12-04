@@ -30,7 +30,7 @@ void read_mv(MOVE & _mv)
 	get<1>(get<1>(_mv)) = c;
 }
 
-void printl(auto & m)
+void printl(map<R,C> & m)
 {
 		for(int i = 0; i <= 40; i++)
 			cout << '\n';
