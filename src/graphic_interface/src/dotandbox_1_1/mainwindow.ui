@@ -23,14 +23,14 @@
    <widget class="QPushButton" name="b_exit">
     <property name="geometry">
      <rect>
-      <x>495</x>
-      <y>370</y>
-      <width>121</width>
-      <height>31</height>
+      <x>280</x>
+      <y>360</y>
+      <width>171</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/images/exit_button.jpeg);</string>
+     <string notr="true">border-image: url(:/images/images/exit_button.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -39,14 +39,14 @@
    <widget class="QPushButton" name="b_sett">
     <property name="geometry">
      <rect>
-      <x>354</x>
-      <y>370</y>
-      <width>121</width>
-      <height>31</height>
+      <x>480</x>
+      <y>360</y>
+      <width>171</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/images/settings_button.jpeg);</string>
+     <string notr="true">border-image: url(:/images/images/settings_button.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -55,8 +55,8 @@
    <widget class="QLineEdit" name="l_id2">
     <property name="geometry">
      <rect>
-      <x>515</x>
-      <y>220</y>
+      <x>482</x>
+      <y>120</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -86,8 +86,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>474</x>
-      <y>220</y>
+      <x>441</x>
+      <y>120</y>
       <width>31</width>
       <height>41</height>
      </rect>
@@ -114,8 +114,8 @@
    <widget class="QLineEdit" name="l_id1">
     <property name="geometry">
      <rect>
-      <x>343</x>
-      <y>220</y>
+      <x>310</x>
+      <y>120</y>
       <width>121</width>
       <height>41</height>
      </rect>
@@ -144,14 +144,14 @@
    <widget class="QPushButton" name="b_ai_play">
     <property name="geometry">
      <rect>
-      <x>498</x>
-      <y>320</y>
-      <width>121</width>
-      <height>31</height>
+      <x>480</x>
+      <y>240</y>
+      <width>171</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/images/dare_button.jpeg);</string>
+     <string notr="true">border-image: url(:/images/images/dare_button.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -160,14 +160,14 @@
    <widget class="QPushButton" name="b_play">
     <property name="geometry">
      <rect>
-      <x>354</x>
-      <y>320</y>
-      <width>121</width>
-      <height>31</height>
+      <x>280</x>
+      <y>240</y>
+      <width>171</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/images/1vs1_button.jpeg);</string>
+     <string notr="true">border-image: url(:/images/images/1vs1_button.png);</string>
     </property>
     <property name="text">
      <string/>

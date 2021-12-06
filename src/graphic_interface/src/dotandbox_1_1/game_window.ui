@@ -296,20 +296,23 @@ border-image: url(:/images/images/paper_background.jpg);</string>
     <rect>
      <x>400</x>
      <y>530</y>
-     <width>111</width>
-     <height>31</height>
+     <width>151</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/exit_button.jpeg);</string>
+    <string notr="true">border-image: url(:/images/images/exit_button.png);</string>
    </property>
    <property name="text">
     <string/>
    </property>
   </widget>
-  <zorder>layoutWidget</zorder>
-  <zorder>layoutWidget</zorder>
-  <zorder>layoutWidget</zorder>
+  <zorder>l_p2_id</zorder>
+  <zorder>l_p2_score</zorder>
+  <zorder>l_p1_id</zorder>
+  <zorder>l_p1_score</zorder>
+  <zorder>b_reset</zorder>
+  <zorder>b_exit</zorder>
   <zorder>g_map</zorder>
   <zorder>l_img</zorder>
   <zorder>l_img_2</zorder>
