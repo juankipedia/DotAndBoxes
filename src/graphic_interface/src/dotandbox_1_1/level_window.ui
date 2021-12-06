@@ -14,25 +14,26 @@
    <string>Settings</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">border-image: url(:/images/images/menu_background.jpeg);</string>
+   <string notr="true">border-image: url(:/images/images/game_background.png);</string>
   </property>
   <widget class="QPushButton" name="b_lv1">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>170</y>
+     <x>290</x>
+     <y>117</y>
      <width>111</width>
      <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>TeX Gyre Cursor</family>
      <weight>75</weight>
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/white_background.jpg);</string>
+    <string notr="true">border-image: url(:/images/images/name.png);</string>
    </property>
    <property name="text">
     <string>Level 1</string>
@@ -41,20 +42,21 @@
   <widget class="QPushButton" name="b_lv3">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>250</y>
+     <x>290</x>
+     <y>197</y>
      <width>111</width>
      <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>TeX Gyre Cursor</family>
      <weight>75</weight>
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/white_background.jpg);</string>
+    <string notr="true">border-image: url(:/images/images/name.png);</string>
    </property>
    <property name="text">
     <string>Level 3</string>
@@ -63,20 +65,21 @@
   <widget class="QPushButton" name="b_lv2">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>210</y>
+     <x>290</x>
+     <y>157</y>
      <width>111</width>
      <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>TeX Gyre Cursor</family>
      <weight>75</weight>
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/white_background.jpg);</string>
+    <string notr="true">border-image: url(:/images/images/name.png);</string>
    </property>
    <property name="text">
     <string>Level 2</string>
@@ -85,20 +88,21 @@
   <widget class="QPushButton" name="b_lv4">
    <property name="geometry">
     <rect>
-     <x>440</x>
-     <y>290</y>
-     <width>131</width>
+     <x>250</x>
+     <y>240</y>
+     <width>191</width>
      <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>TeX Gyre Cursor</family>
      <weight>75</weight>
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/white_background.jpg);</string>
+    <string notr="true">border-image: url(:/images/images/name.png);</string>
    </property>
    <property name="text">
     <string>Don't you dare...</string>
@@ -107,24 +111,21 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>400</x>
-     <y>130</y>
+     <x>240</x>
+     <y>77</y>
      <width>171</width>
      <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Purisa</family>
-     <pointsize>12</pointsize>
+     <family>TeX Gyre Cursor</family>
      <weight>75</weight>
      <bold>true</bold>
-     <underline>true</underline>
-     <strikeout>false</strikeout>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/paper_background.jpg);</string>
+    <string notr="true">border-image: url(:/images/images/white_background.jpg)</string>
    </property>
    <property name="text">
     <string>Select level:</string>
@@ -136,20 +137,21 @@
   <widget class="QPushButton" name="b_back">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>340</y>
+     <x>290</x>
+     <y>287</y>
      <width>111</width>
      <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>TeX Gyre Cursor</family>
      <weight>75</weight>
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/white_background.jpg);</string>
+    <string notr="true">border-image: url(:/images/images/name.png);</string>
    </property>
    <property name="text">
     <string>Back</string>
@@ -158,8 +160,8 @@
   <widget class="QLabel" name="l_arrow1">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>170</y>
+     <x>160</x>
+     <y>117</y>
      <width>81</width>
      <height>41</height>
     </rect>
@@ -177,8 +179,8 @@
   <widget class="QLabel" name="l_arrow2">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>211</y>
+     <x>160</x>
+     <y>158</y>
      <width>81</width>
      <height>41</height>
     </rect>
@@ -196,8 +198,8 @@
   <widget class="QLabel" name="l_arrow3">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>251</y>
+     <x>160</x>
+     <y>198</y>
      <width>81</width>
      <height>41</height>
     </rect>
@@ -215,8 +217,8 @@
   <widget class="QLabel" name="l_arrow4">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>293</y>
+     <x>160</x>
+     <y>240</y>
      <width>81</width>
      <height>41</height>
     </rect>

@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>757</width>
+    <width>733</width>
     <height>588</height>
    </rect>
   </property>
@@ -20,15 +20,15 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">border-image: url(:/images/images/game_background.jpeg);</string>
+   <string notr="true">border-image: url(:/images/images/game_background.png);</string>
   </property>
   <widget class="map_graphics" name="g_map">
    <property name="geometry">
     <rect>
      <x>140</x>
-     <y>150</y>
+     <y>80</y>
      <width>451</width>
-     <height>361</height>
+     <height>351</height>
     </rect>
    </property>
    <property name="accessibleDescription">
@@ -41,7 +41,7 @@
     <bool>true</bool>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/white_background.jpg);</string>
+    <string notr="true">border-image: url(:/images/images/white_background.jpg)</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::StyledPanel</enum>
@@ -150,10 +150,10 @@
    </property>
    <property name="font">
     <font>
-     <family>Purisa</family>
+     <family>TeX Gyre Cursor</family>
      <pointsize>11</pointsize>
      <weight>75</weight>
-     <italic>true</italic>
+     <italic>false</italic>
      <bold>true</bold>
      <kerning>true</kerning>
     </font>
@@ -162,7 +162,7 @@
     <bool>false</bool>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/paper_background.jpg);</string>
+    <string notr="true">border-image: url(:/images/images/name.png);</string>
    </property>
    <property name="text">
     <string/>
@@ -182,13 +182,14 @@
    </property>
    <property name="font">
     <font>
+     <family>TeX Gyre Cursor</family>
      <pointsize>12</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/paper_background.jpg);</string>
+    <string notr="true">border-image: url(:/images/images/name.png)</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::Box</enum>
@@ -218,16 +219,16 @@
    </property>
    <property name="font">
     <font>
-     <family>Purisa</family>
+     <family>TeX Gyre Cursor</family>
      <pointsize>11</pointsize>
      <weight>75</weight>
-     <italic>true</italic>
+     <italic>false</italic>
      <bold>true</bold>
+     <kerning>true</kerning>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/white_background.jpg);
-border-image: url(:/images/images/paper_background.jpg);</string>
+    <string notr="true">border-image: url(:/images/images/name.png);</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::Box</enum>
@@ -236,7 +237,7 @@ border-image: url(:/images/images/paper_background.jpg);</string>
     <enum>QFrame::Raised</enum>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string/>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -253,14 +254,14 @@ border-image: url(:/images/images/paper_background.jpg);</string>
    </property>
    <property name="font">
     <font>
+     <family>TeX Gyre Cursor</family>
      <pointsize>12</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/white_background.jpg);
-border-image: url(:/images/images/paper_background.jpg);</string>
+    <string notr="true">border-image: url(:/images/images/name.png)</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::Panel</enum>
@@ -278,14 +279,14 @@ border-image: url(:/images/images/paper_background.jpg);</string>
   <widget class="QPushButton" name="b_reset">
    <property name="geometry">
     <rect>
-     <x>214</x>
-     <y>532</y>
-     <width>111</width>
-     <height>31</height>
+     <x>170</x>
+     <y>530</y>
+     <width>161</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/re.jpeg);</string>
+    <string notr="true">border-image: url(:/images/images/BotonReset.png);</string>
    </property>
    <property name="text">
     <string/>

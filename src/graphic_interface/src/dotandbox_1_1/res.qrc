@@ -1,18 +1,16 @@
 <RCC>
     <qresource prefix="/images">
-        <file>images/WhatsApp Image 2016-11-30 at 11.45.59.jpeg</file>
         <file>images/flecha-abajo-esbozada.png</file>
-        <file>images/paper_background.jpg</file>
-        <file>images/WhatsApp Image 2016-11-30 at 19.19.10.jpeg</file>
-        <file>images/white_background.jpg</file>
+        <file>images/name.png</file>
         <file>images/arrowp1.png</file>
         <file>images/arrowp2.png</file>
         <file>images/exit_button.png</file>
-        <file>images/menu_background.jpeg</file>
-        <file>images/game_background.jpeg</file>
         <file>images/1vs1_button.png</file>
         <file>images/dare_button.png</file>
-        <file>images/re.jpeg</file>
+        <file>images/vs.png</file>
+        <file>images/BotonReset.png</file>
+        <file>images/white_background.jpg</file>
         <file>images/settings_button.png</file>
+        <file>images/game_background.png</file>
     </qresource>
 </RCC>

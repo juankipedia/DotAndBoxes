@@ -17,14 +17,14 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">border-image: url(:/images/images/menu_background.jpeg);</string>
+   <string notr="true">border-image: url(:/images/images/game_background.png);</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="b_exit">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>360</y>
+      <x>160</x>
+      <y>290</y>
       <width>171</width>
       <height>61</height>
      </rect>
@@ -39,8 +39,8 @@
    <widget class="QPushButton" name="b_sett">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>360</y>
+      <x>370</x>
+      <y>290</y>
       <width>171</width>
       <height>61</height>
      </rect>
@@ -55,23 +55,23 @@
    <widget class="QLineEdit" name="l_id2">
     <property name="geometry">
      <rect>
-      <x>482</x>
-      <y>120</y>
-      <width>131</width>
+      <x>390</x>
+      <y>130</y>
+      <width>141</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Purisa</family>
+      <family>TeX Gyre Cursor</family>
       <pointsize>12</pointsize>
       <weight>75</weight>
-      <italic>true</italic>
+      <italic>false</italic>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/images/paper_background.jpg);</string>
+     <string notr="true">border-image: url(:/images/images/name.png);</string>
     </property>
     <property name="text">
      <string>Player 2</string>
@@ -86,10 +86,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>441</x>
-      <y>120</y>
-      <width>31</width>
-      <height>41</height>
+      <x>310</x>
+      <y>110</y>
+      <width>81</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="font">
@@ -102,10 +102,10 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/images/paper_background.jpg);</string>
+     <string notr="true">border-image: url(:/images/images/vs.png);</string>
     </property>
     <property name="text">
-     <string>VS</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -114,25 +114,25 @@
    <widget class="QLineEdit" name="l_id1">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>120</y>
-      <width>121</width>
+      <x>170</x>
+      <y>130</y>
+      <width>141</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Purisa</family>
+      <family>TeX Gyre Cursor</family>
       <pointsize>12</pointsize>
       <weight>75</weight>
-      <italic>true</italic>
+      <italic>false</italic>
       <bold>true</bold>
       <underline>false</underline>
       <strikeout>false</strikeout>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/images/paper_background.jpg);</string>
+     <string notr="true">border-image: url(:/images/images/name.png)</string>
     </property>
     <property name="text">
      <string>Player 1</string>
@@ -144,8 +144,8 @@
    <widget class="QPushButton" name="b_ai_play">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>240</y>
+      <x>370</x>
+      <y>200</y>
       <width>171</width>
       <height>61</height>
      </rect>
@@ -160,8 +160,8 @@
    <widget class="QPushButton" name="b_play">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>240</y>
+      <x>160</x>
+      <y>200</y>
       <width>171</width>
       <height>61</height>
      </rect>
