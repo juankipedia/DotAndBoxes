@@ -9,17 +9,3 @@ The Artificial Intelligence is the main core of the project, it is based on deci
 This AI, has its only kind of three that we decided to call DotAndBoxTree, it is very special because 
 it is build and delete on each state of the game, according with a level parameter, while grater this parameter, AI 
 is more smart, because it can look for more possible future states of the game. 
-
-
-git config --global user.email "juandiegp17@gmail.com"
-git config --global user.name "juankipedia"
-
-git config --global user.email "jamezquita@unal.edu.co"
-git config --global user.name "JimmyAmez"
-
-git config --global user.email "osierrad@unal.edu.co"
-git config --global user.name "oscarsierra1"
-
-git config --global user.email "dalquichire@unal.edu.co"
-git config --global user.name "Alqui1"
-
