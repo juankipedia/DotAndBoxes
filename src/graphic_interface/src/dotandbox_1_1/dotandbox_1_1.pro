@@ -13,6 +13,7 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
+    loginwindow.cpp \
         mainwindow.cpp \
     game_window.cpp \
     map_graphics.cpp \
@@ -20,12 +21,14 @@ SOURCES += main.cpp\
 
 HEADERS  += mainwindow.h \
     game_window.h \
+    loginwindow.h \
     map_graphics.h \
     level_window.h
 
 FORMS    += mainwindow.ui \
     game_window.ui \
-    level_window.ui
+    level_window.ui \
+    loginwindow.ui
 
 RESOURCES += \
     res.qrc

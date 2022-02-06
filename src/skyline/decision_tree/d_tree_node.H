@@ -357,7 +357,7 @@ public:
 	}
 
 	/**
-	 *@brief creates entire children generation of root.
+	 *@brief creates entire children generation from root.
 	*/
 	void make_tree(move_bucket<R,C> *root_,const map<R,C> & new_map, 
 				   size_t cur_lvl, size_t a_moves_, unsigned short player)
