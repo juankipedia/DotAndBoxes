@@ -63,3 +63,7 @@ void MainWindow::act_level(int lvl)
 {
     _level = lvl;
 }
+
+void MainWindow::setUserNick(const QString &nick){
+    this->ui->l_id1->setText(nick);
+}

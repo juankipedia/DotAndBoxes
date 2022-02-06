@@ -63,9 +63,7 @@
     </property>
     <property name="font">
      <font>
-      <family>TeX Gyre Cursor</family>
       <pointsize>12</pointsize>
-      <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
      </font>
@@ -94,9 +92,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Purisa</family>
       <pointsize>12</pointsize>
-      <weight>75</weight>
       <italic>true</italic>
       <bold>true</bold>
      </font>
@@ -122,9 +118,7 @@
     </property>
     <property name="font">
      <font>
-      <family>TeX Gyre Cursor</family>
       <pointsize>12</pointsize>
-      <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
       <underline>false</underline>
@@ -139,6 +133,9 @@
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="b_ai_play">

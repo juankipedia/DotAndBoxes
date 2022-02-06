@@ -18,7 +18,7 @@ public:
     ~MainWindow();
     int _level = 2;
     level_window *Level_Window = new level_window();
-
+    void setUserNick(const QString &nick);
 
 
 private slots:
