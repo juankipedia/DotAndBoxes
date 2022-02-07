@@ -12,5 +12,8 @@
         <file>images/white_background.jpg</file>
         <file>images/settings_button.png</file>
         <file>images/game_background.png</file>
+        <file>images/confirm.png</file>
+        <file>images/login.png</file>
+        <file>images/signup.png</file>
     </qresource>
 </RCC>

@@ -139,7 +139,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/images/images/settings_button.png);</string>
+    <string notr="true">border-image: url(:/images/images/confirm.png);</string>
    </property>
    <property name="text">
     <string/>

@@ -21,7 +21,11 @@ void LoginWindow::on_b_sett_clicked()
 {
     QString user = ui->label_user->text();
     QString password = ui->label_pass->text();
-    if(this->users.contains(password) || this->users[user] != password){
+
+    if(user == "" || password == ""){
+        this->ui->errorLabel->setText("Please Insert user and password.");
+    }
+    else if(this->users.contains(password) || this->users[user] != password){
         this->ui->errorLabel->setText("Error on login user or password wrong");
     }
     else{
