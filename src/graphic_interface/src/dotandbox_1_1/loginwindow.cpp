@@ -1,6 +1,7 @@
 #include "loginwindow.h"
 #include "ui_loginwindow.h"
 #include <QtDebug>
+#include "signup.h"
 
 LoginWindow::LoginWindow(MainWindow *mwindow, QHash<QString, QString> &users_, QWidget *parent) :
     QMainWindow(parent),
@@ -30,5 +31,13 @@ void LoginWindow::on_b_sett_clicked()
     }
 
 
+}
+
+
+void LoginWindow::on_b_sett_2_clicked()
+{
+    auto signup_window = new SignUp(users);
+    signup_window->setAttribute(Qt::WA_DeleteOnClose);
+    signup_window->show();
 }
 

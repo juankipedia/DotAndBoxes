@@ -17,18 +17,21 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     game_window.cpp \
     map_graphics.cpp \
-    level_window.cpp
+    level_window.cpp \
+    signup.cpp
 
 HEADERS  += mainwindow.h \
     game_window.h \
     loginwindow.h \
     map_graphics.h \
-    level_window.h
+    level_window.h \
+    signup.h
 
 FORMS    += mainwindow.ui \
     game_window.ui \
     level_window.ui \
-    loginwindow.ui
+    loginwindow.ui \
+    signup.ui
 
 RESOURCES += \
     res.qrc

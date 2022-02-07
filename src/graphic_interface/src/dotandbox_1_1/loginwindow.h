@@ -22,6 +22,8 @@ public:
 private slots:
     void on_b_sett_clicked();
 
+    void on_b_sett_2_clicked();
+
 private:
     Ui::LoginWindow *ui;
 };

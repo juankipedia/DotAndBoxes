@@ -3,7 +3,6 @@
 #include <QApplication>
 #include <QFile>
 #include <QTextStream>
-#include <QMessageBox>
 #include <QDebug>
 #include <QHash>
 
